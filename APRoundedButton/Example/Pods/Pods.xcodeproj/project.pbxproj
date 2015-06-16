@@ -7,260 +7,259 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A028DD9407DF76EDE550D20 /* APRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0867994442ECEA248A75 /* APRoundedButton.m */; };
-		3623FD8874E853AD6160434D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682139DD039578A736EC8B59 /* Foundation.framework */; };
-		422B6A96B4F6A50AC97B8AC1 /* Pods-APRoundedButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE81DE5B374224097398D1D /* Pods-APRoundedButton_Tests-dummy.m */; };
-		6BCD615D432984D322BD57D2 /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B27A1901962943FFD284815 /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C8BF761535F5B5495B10785 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DBFB414DC9BCF300C524B8 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */; };
-		9AF0976D8C1B52D26E821F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682139DD039578A736EC8B59 /* Foundation.framework */; };
-		ADD76D2CC8C29D09C3AE4FD1 /* APRoundedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE66AD0B578535016DF5D2A /* APRoundedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA61DDBEFF232BB75BD9E296 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A242FCC39EE22327BFF806 /* QuartzCore.framework */; };
-		D37E9207AE992EDD31E1087D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF21B6B2A82C5792A385C0ED /* UIKit.framework */; };
-		E162DD22E20F328BFAE9FCB6 /* Pods-APRoundedButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B5F581785B1EF11C7447F7 /* Pods-APRoundedButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4F17C1E15592EED5CBB74AB /* APRoundedButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EE63D8BAB28E67C459F49 /* APRoundedButton.bundle */; };
+		0FB7D8F8D1FE340C0E0C0D39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3198EFA01BE050DF4BFA5084 /* QuartzCore.framework */; };
+		19F847D146D9710F44D6DE8E /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986F9FC45017E143619CA80F /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B4B94D997DCB9BED63095AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F20381FD661EF14D6DCA1F /* UIKit.framework */; };
+		47BDD248B71A55667D36BDEB /* APRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFFF463C2BDCC64C49207C /* APRoundedButton.m */; };
+		5D0AC5B8B023AFECF6FF2146 /* APRoundedButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBB22D78465BFF44D1146431 /* APRoundedButton.bundle */; };
+		6463BA6AE6689C69115CAEF6 /* Pods-APRoundedButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC58F34869275A23580E85C /* Pods-APRoundedButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B21BA93472D35324352673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471CF7E998B86F59066B76E7 /* Foundation.framework */; };
+		A6354CAF0E0CFE8A07F47A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471CF7E998B86F59066B76E7 /* Foundation.framework */; };
+		B33E9F74B1AE62E66F227CBE /* APRoundedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3F6AB74EEE9FD8A792619A /* APRoundedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E848B3F8307029F336BA66AA /* Pods-APRoundedButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D916420463846A3BD974CFDF /* Pods-APRoundedButton_Tests-dummy.m */; };
+		EFF6E7C1D2DE9FE01DD0EA78 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A3BE17B449E1B4BA9D0270 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D3CA0428C41400018382B89 /* PBXContainerItemProxy */ = {
+		7EA202E65957787A05036183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C91BF296EC26350F9FDBB4BC /* Project object */;
+			containerPortal = 923F0451A1C18CF8651EFFE4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9DE5913DD6A40740C68AEE9;
-			remoteInfo = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton";
-		};
-		CF6DFA263684883B32190302 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91BF296EC26350F9FDBB4BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 966E98148A04FDBE126D52A6;
+			remoteGlobalIDString = F02E07D5BC89466E83AE8F0E;
 			remoteInfo = "Pods-APRoundedButton_Tests-APRoundedButton";
+		};
+		D80AB1798C2D758B458CE7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923F0451A1C18CF8651EFFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB70D2A85907FE6861BA210E;
+			remoteInfo = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0869F980B1823F716C5DB9BA /* Pods_APRoundedButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APRoundedButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11BA6933E0BC7D60357EB429 /* APRoundedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APRoundedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		124CE1D0AE0348C9CA13F586 /* Pods-APRoundedButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APRoundedButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		134A64C5F583BC49F8C155A8 /* Pods-APRoundedButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APRoundedButton_Tests.modulemap"; sourceTree = "<group>"; };
-		151A8D417CA18219EF7A41CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CC07A2A0D1FDDBB827CA09E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1F264F60431B6B1C54D9FEA8 /* Pods-APRoundedButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A56A72F40EFAAFC9520175B /* Pods-APRoundedButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B61732ADC6F577CCE354617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DAC532D56C3D401AB281C79 /* Pods-APRoundedButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APRoundedButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig"; sourceTree = "<group>"; };
-		5B27A1901962943FFD284815 /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h"; sourceTree = "<group>"; };
-		5F4FBB8778BF2872C0942603 /* Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch"; sourceTree = "<group>"; };
-		682139DD039578A736EC8B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68A242FCC39EE22327BFF806 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		8CE66AD0B578535016DF5D2A /* APRoundedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APRoundedButton.h; sourceTree = "<group>"; };
-		8D7EE63D8BAB28E67C459F49 /* APRoundedButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APRoundedButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		91EC0867994442ECEA248A75 /* APRoundedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APRoundedButton.m; sourceTree = "<group>"; };
-		967ED986BA0CDC2D610D88A0 /* Pods-APRoundedButton_Tests-APRoundedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests-APRoundedButton.xcconfig"; sourceTree = "<group>"; };
-		B2B8A7117872155D054778FE /* Pods-APRoundedButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APRoundedButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CA08E643FE037626200761B3 /* Pods-APRoundedButton_Tests-APRoundedButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APRoundedButton_Tests-APRoundedButton.modulemap"; sourceTree = "<group>"; };
-		D0A94E2D3E936EBA08E242AA /* Pods-APRoundedButton_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-environment.h"; sourceTree = "<group>"; };
-		D5DBFB414DC9BCF300C524B8 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APRoundedButton_Tests-APRoundedButton-dummy.m"; sourceTree = "<group>"; };
-		DDE81DE5B374224097398D1D /* Pods-APRoundedButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APRoundedButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		E98B6015231ED51244F62112 /* Pods-APRoundedButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APRoundedButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		F2B5F581785B1EF11C7447F7 /* Pods-APRoundedButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FF21B6B2A82C5792A385C0ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		02B98789558E12326AA024B8 /* Pods-APRoundedButton_Tests-APRoundedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests-APRoundedButton.xcconfig"; sourceTree = "<group>"; };
+		1E4D68F08BA1093B2B6CC95A /* Pods_APRoundedButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APRoundedButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9C1A9DDFE9DACB20B90BB6 /* APRoundedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APRoundedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB474EABA31C571BC1CADF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3198EFA01BE050DF4BFA5084 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		47043573EFD22FABCB9BAD1C /* Pods-APRoundedButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APRoundedButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		471CF7E998B86F59066B76E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		555F6A233DB1DA963CA81ED2 /* Pods-APRoundedButton_Tests-APRoundedButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APRoundedButton_Tests-APRoundedButton.modulemap"; sourceTree = "<group>"; };
+		5BDAF60111FEC8EF2E60FB81 /* Pods-APRoundedButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		63730490D9F12B827F74FF45 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6ACFD0C8DEC4F9C353AFBBEC /* Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch"; sourceTree = "<group>"; };
+		87E8394689D5DDC504773AB2 /* Pods-APRoundedButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APRoundedButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88A3BE17B449E1B4BA9D0270 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APRoundedButton_Tests-APRoundedButton-dummy.m"; sourceTree = "<group>"; };
+		89A20BF70ECEC8D44A93A2D0 /* Pods-APRoundedButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APRoundedButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8EBFFF463C2BDCC64C49207C /* APRoundedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APRoundedButton.m; sourceTree = "<group>"; };
+		986F9FC45017E143619CA80F /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h"; sourceTree = "<group>"; };
+		9CC58F34869275A23580E85C /* Pods-APRoundedButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFDC3E3856960167CD034E95 /* Pods-APRoundedButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APRoundedButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0F20381FD661EF14D6DCA1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		CBB22D78465BFF44D1146431 /* APRoundedButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APRoundedButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3F6AB74EEE9FD8A792619A /* APRoundedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APRoundedButton.h; sourceTree = "<group>"; };
+		D916420463846A3BD974CFDF /* Pods-APRoundedButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APRoundedButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		D927937D63778643CCCC32C2 /* Pods-APRoundedButton_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APRoundedButton_Tests-environment.h"; sourceTree = "<group>"; };
+		E89275F2FF936717692E0C2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C6B682F4DD5CDAD7CA87A0 /* Pods-APRoundedButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APRoundedButton_Tests.modulemap"; sourceTree = "<group>"; };
+		F60659427261BC7FEB964771 /* Pods-APRoundedButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APRoundedButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E6B18F77EF76F90E151CD7C /* Frameworks */ = {
+		5CDA8547574093190EC8074B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF0976D8C1B52D26E821F68 /* Foundation.framework in Frameworks */,
-				CA61DDBEFF232BB75BD9E296 /* QuartzCore.framework in Frameworks */,
-				D37E9207AE992EDD31E1087D /* UIKit.framework in Frameworks */,
+				A6354CAF0E0CFE8A07F47A17 /* Foundation.framework in Frameworks */,
+				0FB7D8F8D1FE340C0E0C0D39 /* QuartzCore.framework in Frameworks */,
+				2B4B94D997DCB9BED63095AE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		851DA9AF70D389E8883E2FCF /* Frameworks */ = {
+		7E71E77D64BE3B93482ED0F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B21BA93472D35324352673 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDA1F07CA35E231331D5E1B7 /* Frameworks */ = {
+		B4157FD8994658E9B18BEB94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3623FD8874E853AD6160434D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B28103AC3B1291DF4C5D9A /* Classes */ = {
+		0AED8D446C8568246C25004E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8CE66AD0B578535016DF5D2A /* APRoundedButton.h */,
-				91EC0867994442ECEA248A75 /* APRoundedButton.m */,
+				F60E9627D12FF13BA717975C /* Pods-APRoundedButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22339DB8DC4C471FAB333A00 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				471CF7E998B86F59066B76E7 /* Foundation.framework */,
+				3198EFA01BE050DF4BFA5084 /* QuartzCore.framework */,
+				B0F20381FD661EF14D6DCA1F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		37388BB12F1B7F8498C5A519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22339DB8DC4C471FAB333A00 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		702EF3A3CDDA2B9963625104 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F6AB74EEE9FD8A792619A /* APRoundedButton.h */,
+				8EBFFF463C2BDCC64C49207C /* APRoundedButton.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		3420B082CBF910E3E1A72185 /* Pod */ = {
+		7A8467F2255CCE481FCAA136 /* APRoundedButton */ = {
 			isa = PBXGroup;
 			children = (
-				01B28103AC3B1291DF4C5D9A /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		56CC3160997E1ED0F7F1D5C7 /* APRoundedButton */ = {
-			isa = PBXGroup;
-			children = (
-				3420B082CBF910E3E1A72185 /* Pod */,
-				E43ED4FBAF296890B9D23C5A /* Support Files */,
+				8FB962C4066AE201DACB7574 /* Pod */,
+				F0C0181648B848712D775ED9 /* Support Files */,
 			);
 			name = APRoundedButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6F149537BB1D648D05F75D91 /* Targets Support Files */ = {
+		8FB962C4066AE201DACB7574 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CDE31E1E89489A4552C7C300 /* Pods-APRoundedButton_Tests */,
+				702EF3A3CDDA2B9963625104 /* Classes */,
 			);
-			name = "Targets Support Files";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		77C7B08B4E61E2858D8BF6F6 /* Frameworks */ = {
+		A1ED675275205101C48036EA = {
 			isa = PBXGroup;
 			children = (
-				B34C0BB07DA5B8F69F903239 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		80BB3E5060D49083446007A2 = {
-			isa = PBXGroup;
-			children = (
-				1CC07A2A0D1FDDBB827CA09E /* Podfile */,
-				AA8518641D248CD09C5E3FA6 /* Development Pods */,
-				77C7B08B4E61E2858D8BF6F6 /* Frameworks */,
-				EC5EDD548827747DC44B644C /* Products */,
-				6F149537BB1D648D05F75D91 /* Targets Support Files */,
+				63730490D9F12B827F74FF45 /* Podfile */,
+				A3793946580F053CFE83196F /* Development Pods */,
+				37388BB12F1B7F8498C5A519 /* Frameworks */,
+				CD85FB07E01D4B82CDC4AF92 /* Products */,
+				0AED8D446C8568246C25004E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AA8518641D248CD09C5E3FA6 /* Development Pods */ = {
+		A3793946580F053CFE83196F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				56CC3160997E1ED0F7F1D5C7 /* APRoundedButton */,
+				7A8467F2255CCE481FCAA136 /* APRoundedButton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B34C0BB07DA5B8F69F903239 /* iOS */ = {
+		CD85FB07E01D4B82CDC4AF92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				682139DD039578A736EC8B59 /* Foundation.framework */,
-				68A242FCC39EE22327BFF806 /* QuartzCore.framework */,
-				FF21B6B2A82C5792A385C0ED /* UIKit.framework */,
+				CBB22D78465BFF44D1146431 /* APRoundedButton.bundle */,
+				1F9C1A9DDFE9DACB20B90BB6 /* APRoundedButton.framework */,
+				1E4D68F08BA1093B2B6CC95A /* Pods_APRoundedButton_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		CDE31E1E89489A4552C7C300 /* Pods-APRoundedButton_Tests */ = {
+		F0C0181648B848712D775ED9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				151A8D417CA18219EF7A41CC /* Info.plist */,
-				134A64C5F583BC49F8C155A8 /* Pods-APRoundedButton_Tests.modulemap */,
-				4DAC532D56C3D401AB281C79 /* Pods-APRoundedButton_Tests-acknowledgements.markdown */,
-				124CE1D0AE0348C9CA13F586 /* Pods-APRoundedButton_Tests-acknowledgements.plist */,
-				DDE81DE5B374224097398D1D /* Pods-APRoundedButton_Tests-dummy.m */,
-				D0A94E2D3E936EBA08E242AA /* Pods-APRoundedButton_Tests-environment.h */,
-				B2B8A7117872155D054778FE /* Pods-APRoundedButton_Tests-frameworks.sh */,
-				E98B6015231ED51244F62112 /* Pods-APRoundedButton_Tests-resources.sh */,
-				F2B5F581785B1EF11C7447F7 /* Pods-APRoundedButton_Tests-umbrella.h */,
-				3A56A72F40EFAAFC9520175B /* Pods-APRoundedButton_Tests.debug.xcconfig */,
-				1F264F60431B6B1C54D9FEA8 /* Pods-APRoundedButton_Tests.release.xcconfig */,
-			);
-			name = "Pods-APRoundedButton_Tests";
-			path = "Target Support Files/Pods-APRoundedButton_Tests";
-			sourceTree = "<group>";
-		};
-		E43ED4FBAF296890B9D23C5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B61732ADC6F577CCE354617 /* Info.plist */,
-				CA08E643FE037626200761B3 /* Pods-APRoundedButton_Tests-APRoundedButton.modulemap */,
-				967ED986BA0CDC2D610D88A0 /* Pods-APRoundedButton_Tests-APRoundedButton.xcconfig */,
-				4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */,
-				D5DBFB414DC9BCF300C524B8 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */,
-				5F4FBB8778BF2872C0942603 /* Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch */,
-				5B27A1901962943FFD284815 /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */,
+				E89275F2FF936717692E0C2B /* Info.plist */,
+				555F6A233DB1DA963CA81ED2 /* Pods-APRoundedButton_Tests-APRoundedButton.modulemap */,
+				02B98789558E12326AA024B8 /* Pods-APRoundedButton_Tests-APRoundedButton.xcconfig */,
+				C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */,
+				88A3BE17B449E1B4BA9D0270 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m */,
+				6ACFD0C8DEC4F9C353AFBBEC /* Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch */,
+				986F9FC45017E143619CA80F /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton";
 			sourceTree = "<group>";
 		};
-		EC5EDD548827747DC44B644C /* Products */ = {
+		F60E9627D12FF13BA717975C /* Pods-APRoundedButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8D7EE63D8BAB28E67C459F49 /* APRoundedButton.bundle */,
-				11BA6933E0BC7D60357EB429 /* APRoundedButton.framework */,
-				0869F980B1823F716C5DB9BA /* Pods_APRoundedButton_Tests.framework */,
+				2FB474EABA31C571BC1CADF9 /* Info.plist */,
+				E9C6B682F4DD5CDAD7CA87A0 /* Pods-APRoundedButton_Tests.modulemap */,
+				87E8394689D5DDC504773AB2 /* Pods-APRoundedButton_Tests-acknowledgements.markdown */,
+				AFDC3E3856960167CD034E95 /* Pods-APRoundedButton_Tests-acknowledgements.plist */,
+				D916420463846A3BD974CFDF /* Pods-APRoundedButton_Tests-dummy.m */,
+				D927937D63778643CCCC32C2 /* Pods-APRoundedButton_Tests-environment.h */,
+				89A20BF70ECEC8D44A93A2D0 /* Pods-APRoundedButton_Tests-frameworks.sh */,
+				47043573EFD22FABCB9BAD1C /* Pods-APRoundedButton_Tests-resources.sh */,
+				9CC58F34869275A23580E85C /* Pods-APRoundedButton_Tests-umbrella.h */,
+				5BDAF60111FEC8EF2E60FB81 /* Pods-APRoundedButton_Tests.debug.xcconfig */,
+				F60659427261BC7FEB964771 /* Pods-APRoundedButton_Tests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-APRoundedButton_Tests";
+			path = "Target Support Files/Pods-APRoundedButton_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A0CF6A20A1A3A1E60E0DD919 /* Headers */ = {
+		7299DEFCC7A65199ABB4A592 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E162DD22E20F328BFAE9FCB6 /* Pods-APRoundedButton_Tests-umbrella.h in Headers */,
+				B33E9F74B1AE62E66F227CBE /* APRoundedButton.h in Headers */,
+				19F847D146D9710F44D6DE8E /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9945CBFF65D46A7AA16D9D3 /* Headers */ = {
+		8B334E0B7F0DE5609109835C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD76D2CC8C29D09C3AE4FD1 /* APRoundedButton.h in Headers */,
-				6BCD615D432984D322BD57D2 /* Pods-APRoundedButton_Tests-APRoundedButton-umbrella.h in Headers */,
+				6463BA6AE6689C69115CAEF6 /* Pods-APRoundedButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		966E98148A04FDBE126D52A6 /* Pods-APRoundedButton_Tests-APRoundedButton */ = {
+		238C01821EF3B9453EB7A8AE /* Pods-APRoundedButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 875D1BC4C758C034E54FA290 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton" */;
+			buildConfigurationList = 449B20F0C40BC08054B8F213 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests" */;
 			buildPhases = (
-				A1467070FCB1CD788555D849 /* Sources */,
-				3E6B18F77EF76F90E151CD7C /* Frameworks */,
-				57D2C7A6BCC443CA308ACAA4 /* Resources */,
-				F9945CBFF65D46A7AA16D9D3 /* Headers */,
+				B60AA0D64405280BF1657473 /* Sources */,
+				7E71E77D64BE3B93482ED0F0 /* Frameworks */,
+				8B334E0B7F0DE5609109835C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5E37AD4CD7A72FB14DDEBF5 /* PBXTargetDependency */,
+				C976C4B795F19E26EEC2708A /* PBXTargetDependency */,
 			);
-			name = "Pods-APRoundedButton_Tests-APRoundedButton";
-			productName = "Pods-APRoundedButton_Tests-APRoundedButton";
-			productReference = 11BA6933E0BC7D60357EB429 /* APRoundedButton.framework */;
+			name = "Pods-APRoundedButton_Tests";
+			productName = "Pods-APRoundedButton_Tests";
+			productReference = 1E4D68F08BA1093B2B6CC95A /* Pods_APRoundedButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A9DE5913DD6A40740C68AEE9 /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */ = {
+		EB70D2A85907FE6861BA210E /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C0DD025B9C55CFC3F3DF5D /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton" */;
+			buildConfigurationList = 0C86EA47F9FC2C8128E1DD51 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton" */;
 			buildPhases = (
-				F4485D2A97470DDF588E6A09 /* Sources */,
-				851DA9AF70D389E8883E2FCF /* Frameworks */,
-				87AC754B7750F91548250D5D /* Resources */,
+				725B681199FD6E353BFA369B /* Sources */,
+				B4157FD8994658E9B18BEB94 /* Frameworks */,
+				3DF9ABD3421D6BCA67DB7372 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -268,219 +267,117 @@
 			);
 			name = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton";
 			productName = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton";
-			productReference = 8D7EE63D8BAB28E67C459F49 /* APRoundedButton.bundle */;
+			productReference = CBB22D78465BFF44D1146431 /* APRoundedButton.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		CFBB97554A3DBD70B5CA47EE /* Pods-APRoundedButton_Tests */ = {
+		F02E07D5BC89466E83AE8F0E /* Pods-APRoundedButton_Tests-APRoundedButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8CEA3891FC41440A5DF146A /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests" */;
+			buildConfigurationList = 3609EEDB3F35003F24411A8C /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton" */;
 			buildPhases = (
-				CA206D8CA51DF8584534E9F8 /* Sources */,
-				CDA1F07CA35E231331D5E1B7 /* Frameworks */,
-				A0CF6A20A1A3A1E60E0DD919 /* Headers */,
+				E68EAE4AE8B559A00484EE69 /* Sources */,
+				5CDA8547574093190EC8074B /* Frameworks */,
+				A6451C5BF895A5328AC3F9CA /* Resources */,
+				7299DEFCC7A65199ABB4A592 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				345C61AD01DBD51C308CFD5C /* PBXTargetDependency */,
+				707F90AC5AAD1E28CC0D5903 /* PBXTargetDependency */,
 			);
-			name = "Pods-APRoundedButton_Tests";
-			productName = "Pods-APRoundedButton_Tests";
-			productReference = 0869F980B1823F716C5DB9BA /* Pods_APRoundedButton_Tests.framework */;
+			name = "Pods-APRoundedButton_Tests-APRoundedButton";
+			productName = "Pods-APRoundedButton_Tests-APRoundedButton";
+			productReference = 1F9C1A9DDFE9DACB20B90BB6 /* APRoundedButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C91BF296EC26350F9FDBB4BC /* Project object */ = {
+		923F0451A1C18CF8651EFFE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = CD456A4BEC198B24A9802F1A /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 0604092F3A54F41687D4F100 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 80BB3E5060D49083446007A2;
-			productRefGroup = EC5EDD548827747DC44B644C /* Products */;
+			mainGroup = A1ED675275205101C48036EA;
+			productRefGroup = CD85FB07E01D4B82CDC4AF92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFBB97554A3DBD70B5CA47EE /* Pods-APRoundedButton_Tests */,
-				966E98148A04FDBE126D52A6 /* Pods-APRoundedButton_Tests-APRoundedButton */,
-				A9DE5913DD6A40740C68AEE9 /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */,
+				238C01821EF3B9453EB7A8AE /* Pods-APRoundedButton_Tests */,
+				F02E07D5BC89466E83AE8F0E /* Pods-APRoundedButton_Tests-APRoundedButton */,
+				EB70D2A85907FE6861BA210E /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57D2C7A6BCC443CA308ACAA4 /* Resources */ = {
+		3DF9ABD3421D6BCA67DB7372 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F17C1E15592EED5CBB74AB /* APRoundedButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87AC754B7750F91548250D5D /* Resources */ = {
+		A6451C5BF895A5328AC3F9CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0AC5B8B023AFECF6FF2146 /* APRoundedButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1467070FCB1CD788555D849 /* Sources */ = {
+		725B681199FD6E353BFA369B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A028DD9407DF76EDE550D20 /* APRoundedButton.m in Sources */,
-				7C8BF761535F5B5495B10785 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA206D8CA51DF8584534E9F8 /* Sources */ = {
+		B60AA0D64405280BF1657473 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422B6A96B4F6A50AC97B8AC1 /* Pods-APRoundedButton_Tests-dummy.m in Sources */,
+				E848B3F8307029F336BA66AA /* Pods-APRoundedButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4485D2A97470DDF588E6A09 /* Sources */ = {
+		E68EAE4AE8B559A00484EE69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BDD248B71A55667D36BDEB /* APRoundedButton.m in Sources */,
+				EFF6E7C1D2DE9FE01DD0EA78 /* Pods-APRoundedButton_Tests-APRoundedButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		345C61AD01DBD51C308CFD5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-APRoundedButton_Tests-APRoundedButton";
-			target = 966E98148A04FDBE126D52A6 /* Pods-APRoundedButton_Tests-APRoundedButton */;
-			targetProxy = CF6DFA263684883B32190302 /* PBXContainerItemProxy */;
-		};
-		A5E37AD4CD7A72FB14DDEBF5 /* PBXTargetDependency */ = {
+		707F90AC5AAD1E28CC0D5903 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton";
-			target = A9DE5913DD6A40740C68AEE9 /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */;
-			targetProxy = 6D3CA0428C41400018382B89 /* PBXContainerItemProxy */;
+			target = EB70D2A85907FE6861BA210E /* Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton */;
+			targetProxy = D80AB1798C2D758B458CE7F4 /* PBXContainerItemProxy */;
+		};
+		C976C4B795F19E26EEC2708A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-APRoundedButton_Tests-APRoundedButton";
+			target = F02E07D5BC89466E83AE8F0E /* Pods-APRoundedButton_Tests-APRoundedButton */;
+			targetProxy = 7EA202E65957787A05036183 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A4EB083AC2A3C93F86E5EEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A56A72F40EFAAFC9520175B /* Pods-APRoundedButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-APRoundedButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-APRoundedButton_Tests/Pods-APRoundedButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_APRoundedButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4228E9B9F0BE2D6927521CBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		59E09E09D12D3374D4A1D2BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-APRoundedButton_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = APRoundedButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6085FC132DD5B97FF117CC7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Pods-APRoundedButton_Tests-APRoundedButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = APRoundedButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		78DE56AB23286B3B3C99A3D8 /* Debug */ = {
+		0D11D8E30FC744C8AD4F7952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -519,9 +416,51 @@
 			};
 			name = Debug;
 		};
-		CB84FF0634D9004510188FEC /* Release */ = {
+		131A83EBBC3F03F991C5E07A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F264F60431B6B1C54D9FEA8 /* Pods-APRoundedButton_Tests.release.xcconfig */;
+			baseConfigurationReference = C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-APRoundedButton_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = APRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1567A1171F989FE7C5ED20D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDAF60111FEC8EF2E60FB81 /* Pods-APRoundedButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-APRoundedButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-APRoundedButton_Tests/Pods-APRoundedButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_APRoundedButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ACB2AA8A272B376006FFEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60659427261BC7FEB964771 /* Pods-APRoundedButton_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -548,9 +487,83 @@
 			};
 			name = Release;
 		};
-		E56C40F27A1469E192E96296 /* Release */ = {
+		5C23A4FE5E555F712CD75349 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA36DAE625DFA80EDD5427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-APRoundedButton_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = APRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7B4FD623BAE7727E3B094483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Pods-APRoundedButton_Tests-APRoundedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-APRoundedButton_Tests-APRoundedButton/Pods-APRoundedButton_Tests-APRoundedButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94FA0D67C1BFE474E35157B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11A0DA7C8A589CFF914B09E /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -575,59 +588,46 @@
 			};
 			name = Release;
 		};
-		E9419A7FEC8537F8A689A4A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC30854AF3671C2A172608B /* Pods-APRoundedButton_Tests-APRoundedButton-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-APRoundedButton_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = APRoundedButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		875D1BC4C758C034E54FA290 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton" */ = {
+		0604092F3A54F41687D4F100 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6085FC132DD5B97FF117CC7E /* Debug */,
-				E56C40F27A1469E192E96296 /* Release */,
+				0D11D8E30FC744C8AD4F7952 /* Debug */,
+				5C23A4FE5E555F712CD75349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C0DD025B9C55CFC3F3DF5D /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton" */ = {
+		0C86EA47F9FC2C8128E1DD51 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59E09E09D12D3374D4A1D2BE /* Debug */,
-				E9419A7FEC8537F8A689A4A5 /* Release */,
+				131A83EBBC3F03F991C5E07A /* Debug */,
+				6BA36DAE625DFA80EDD5427D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD456A4BEC198B24A9802F1A /* Build configuration list for PBXProject "Pods" */ = {
+		3609EEDB3F35003F24411A8C /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests-APRoundedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78DE56AB23286B3B3C99A3D8 /* Debug */,
-				4228E9B9F0BE2D6927521CBB /* Release */,
+				7B4FD623BAE7727E3B094483 /* Debug */,
+				94FA0D67C1BFE474E35157B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8CEA3891FC41440A5DF146A /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests" */ = {
+		449B20F0C40BC08054B8F213 /* Build configuration list for PBXNativeTarget "Pods-APRoundedButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A4EB083AC2A3C93F86E5EEE /* Debug */,
-				CB84FF0634D9004510188FEC /* Release */,
+				1567A1171F989FE7C5ED20D9 /* Debug */,
+				5ACB2AA8A272B376006FFEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C91BF296EC26350F9FDBB4BC /* Project object */;
+	rootObject = 923F0451A1C18CF8651EFFE4 /* Project object */;
 }

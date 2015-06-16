@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                        A simple XIB extension to make rounded custom buttons, without writing one line of code!
                        DESC
   s.homepage         = "https://github.com/jsilverMDX/APRoundedButton"
-  s.license          = 'MIT'
+  s.license          = 'LICENSE'
   s.author           = { "Jonathan Silverman" => "jsilverman2@gmail.com" }
 s.source           = { :git => "https://github.com/jsilverMDX/APRoundedButton.git", :tag => s.version.to_s }
 

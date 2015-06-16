@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A9DE5913DD6A40740C68AEE9"
+               BlueprintIdentifier = "EB70D2A85907FE6861BA210E"
                BuildableName = "APRoundedButton.bundle"
                BlueprintName = "Pods-APRoundedButton_Tests-APRoundedButton-APRoundedButton"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/jsilverMDX/APRoundedButton.git",
-    "tag": "master"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "7.0"
