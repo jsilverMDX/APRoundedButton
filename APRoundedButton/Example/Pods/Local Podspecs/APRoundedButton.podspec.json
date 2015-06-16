@@ -1,0 +1,29 @@
+{
+  "name": "APRoundedButton",
+  "version": "0.1.0",
+  "summary": "A short description of APRoundedButton.",
+  "description": "                       An optional longer description of APRoundedButton\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/jsilverMDX/APRoundedButton",
+  "license": "MIT",
+  "authors": {
+    "Jonathan Silverman": "jsilverman2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jsilverMDX/APRoundedButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "APRoundedButton": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ]
+}
