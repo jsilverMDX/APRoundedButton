@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "APRoundedButton"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A rounded button."
   s.description      = <<-DESC
                        A simple XIB extension to make rounded custom buttons, without writing one line of code!
