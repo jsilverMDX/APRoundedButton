@@ -1,5 +1,5 @@
 PODS:
-  - APRoundedButton (0.1.0)
+  - APRoundedButton (0.1.2)
 
 DEPENDENCIES:
   - APRoundedButton (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  APRoundedButton: 77b9e017d81b599bda479dc9552ffb2cb2829cb6
+  APRoundedButton: 87af863bf2298be26dac7adaaa9c6472b3fd3772
 
 COCOAPODS: 0.37.2

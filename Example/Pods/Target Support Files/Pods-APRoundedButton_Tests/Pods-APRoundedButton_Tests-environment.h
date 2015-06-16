@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_APRoundedButton
 #define COCOAPODS_VERSION_MAJOR_APRoundedButton 0
 #define COCOAPODS_VERSION_MINOR_APRoundedButton 1
-#define COCOAPODS_VERSION_PATCH_APRoundedButton 0
+#define COCOAPODS_VERSION_PATCH_APRoundedButton 2
 
