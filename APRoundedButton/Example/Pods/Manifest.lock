@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  APRoundedButton: 76c3e0de727b7e55b831e9defb6255f33df942a2
+  APRoundedButton: 6bcf43c48eefc8df7be5d5d527e30d09bc2390d5
 
 COCOAPODS: 0.37.2

@@ -10,22 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "APRoundedButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of APRoundedButton."
+  s.summary          = "A rounded button."
   s.description      = <<-DESC
-                       An optional longer description of APRoundedButton
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A simple XIB extension to make rounded custom buttons, without writing one line of code!
                        DESC
   s.homepage         = "https://github.com/jsilverMDX/APRoundedButton"
   s.license          = 'MIT'
   s.author           = { "Jonathan Silverman" => "jsilverman2@gmail.com" }
-  s.source           = { :git => "https://github.com/jsilverMDX/APRoundedButton.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/jsilverMDX/APRoundedButton.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**'
   s.resource_bundles = {
     'APRoundedButton' => ['Pod/Assets/*.png']
   }
